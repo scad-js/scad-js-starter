@@ -4,7 +4,7 @@
     "render": "node src/index.js > dist/output.scad && openscad dist/output.scad -o dist/output.stl"
   },
   "dependencies": {
-    "@dotcore64/scad-js": "^0.0.7",
+    "@dotcore64/scad-js": "^0.2.0",
     "nodemon": "^2.0.4"
   },
   "name": "scad-js-starter",
