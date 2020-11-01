@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { cylinder, difference, sphere } = require('@dotcore64/scad-js');
 
 const size = 50;
@@ -11,5 +12,4 @@ const output = difference(
   cylinder(cylinderHeight, hole).rotate([90, 0, 0]),
 );
 
-console.log('$fn=100;');
-console.log(output.serialize());
+fs.writeFileSync('./dist/output.scad', output.serialize({ $fn: 100 }));

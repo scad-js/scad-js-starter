@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "openscad dist/output.scad & nodemon --watch src --exec 'node src/index.js > dist/output.scad'",
-    "render": "node src/index.js > dist/output.scad && openscad dist/output.scad -o dist/output.stl"
+    "dev": "openscad dist/output.scad & nodemon --watch src --exec 'node src/index.js'",
+    "render": "node src/index.js && openscad dist/output.scad -o dist/output.stl"
   },
   "dependencies": {
     "@dotcore64/scad-js": "^0.2.0",
