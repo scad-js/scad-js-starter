@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@dotcore64/scad-js@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@dotcore64/scad-js/-/scad-js-0.2.0.tgz#6c9f71f40aa8981ebeb0936077b251d1eb390de4"
-  integrity sha512-HYIAKmxui7PADC2FVjCtV/Tfhs8gsmJ/B/rKSLkUQRf2y8dCT466gM0LSrjY+WBpjKfNCVAKtLhl1xoNG29egA==
+"@dotcore64/scad-js@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@dotcore64/scad-js/-/scad-js-0.2.3.tgz#903489a848d878f648e50558033688a32e4fcea1"
+  integrity sha512-kx5Xa4hyBP/9s9p/NywfQh3VILY/QCravtOx5KQyC4QthwggSen7KTmLXGrq47FHOf/S5098//GtjXx1v8OYEg==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
