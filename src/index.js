@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { cylinder, difference, sphere } = require('@dotcore64/scad-js');
+const { cylinder, difference, sphere } = require('scad-js');
 
 const size = 50;
 const hole = size / 2;

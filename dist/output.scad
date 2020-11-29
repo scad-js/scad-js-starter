@@ -1,4 +1,4 @@
-$fn=100;
+$fn = 100;
 difference()
 {
   sphere(r = 50);
@@ -18,4 +18,3 @@ difference()
     cylinder(h = 125, r = 25, center = true);
   }
 }
-
